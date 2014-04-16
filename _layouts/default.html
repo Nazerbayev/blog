@@ -14,12 +14,12 @@
                     {{ content }}
                 </div><!-- /.blog-main -->
                 <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-                    <div class="sidebar-module sidebar-module-inset">
-                        <h4>About</h4>
-                        <img src="{{site.url}}/assets/images/wookiee.jpg" alt="..." class="img-circle">                        
+                    <div class="sidebar-module sidebar-module-inset" style="text-align: center;">
+                        <img src="{{site.url}}/assets/images/wookiee.jpg" alt="..." class="img-circle" style="display: block; margin-left: auto; margin-right: auto;">
                         <p><em>William Bettencourt</em> Entrepeneur.</p>
                     </div>
                     <div class="sidebar-module">
+                        <br/>
                         <h4>Archivos</h4>
                         <ol class="list-unstyled">
                             {% for post in site.posts %}
@@ -34,6 +34,7 @@
                             <li><a href="#">Twitter</a></li>
                             <li><a href="#">Facebook</a></li>
                         </ol>
+                        <br/>
                     </div>
                 </div><!-- /.blog-sidebar -->
             </div><!-- /.row -->
