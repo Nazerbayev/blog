@@ -12,10 +12,9 @@ html { height: 100%}
   src: url("../fonts/KaushanScript-Regular.otf");
 }
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Tahoma, Georgia, "Times New Roman", Times, serif;
   color: #555;
   background-image:url('../images/texturas/bskulls.gif');
-  margin-bottom: 60px;
 }
 
 h1, .h1,
@@ -113,6 +112,7 @@ h6, .h6 {
 .blog-main {
   font-size: 16px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 /* Sidebar modules for boxing content */
@@ -155,7 +155,8 @@ h6, .h6 {
 }
 .blog-post-title {
   margin-bottom: 5px;
-  font-size: 40px;
+  font-size: 35px;
+  color: #275478;
 }
 .blog-post-meta {
   margin-bottom: 20px;
@@ -167,10 +168,8 @@ h6, .h6 {
  * Footer
  */
 
-#footer {
-  position: absolute;
+.footer {
   text-align: center;
-  bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
