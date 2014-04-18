@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Pensamiento de Grupo"
+date:   2014-04-18
+categories: blog
+enslavinator: /assets/images/200px-monkey_slave-inator.png
+meta: "William Bettencourt"
+---
+
+p. Hace tiempo tuve una conversación con un amigo que habia escrito un artículo en su "blog":http://elpenultimobloguero.blogspot.com, y a modo de broma le comenté que evitase, o que por lo menos tratase con delicadeza, opiniones impopulares en Internet. Cuando me preguntó porqué, le dije que la razón era porque Internet es como un gran organismo vivo y que tiende a reaccionar violentamente y sin compasión frente a esas cosas.
+
+Cabe destacar que no logré convencerlo del todo, lo que es razonable ya que no supe argumentar muy bien mi punto, pero ahora que me he documentado un poco mejor entonces puedo darme a entender con más eficacia. Yo digo que el internet tiene su propia conciencia por una característica propia del ser Humano: el ser humano es, y siempre será, bruto cuando está en masa.
+
+<div class="bs-callout bs-callout-info">
+	El ser humano es, y siempre será, **bruto cuando está en masa**
+</div>
+
+Nuestra naturaleza, que heredamos de los primates en nuestro tortuoso camino por la evolución *(por mucho que les duela a los creacionistas)*, siempre ha sido la de imitar. Somos animales altamente sociales y empáticos, aprendemos por imitación y vivimos el resto de nuestras vidas imitando a nuestros congéneres, imitamos a los grupos sociales a los cuales queremos pertenecer o con los que nos sentimos identificados.
+
+<div style="padding-left: 10px; text-align: center; float: right">
+!(img-thumbnail){{ page.enslavinator }}(El monkey enslav-inator)!
+%(small)_El monkey enslav-inator_%
+</div>
+
+Esta característica psicologica de los humanos (y primates) lo vi representado brillantemente en un capitulo de ??Phineas and Ferb?? donde el ??Doctor Doofenshmirtz?? construyó un casco *(el monkey enslav-inator)* para controlar mentalmente a los monos para que hicieran el trabajo sucio y explica que sólo tuvo que construir uno diciendo **“because, you know, monkey see monkey do.”** (+traducción:+ **“porque, sabes, mono ve, mono hace”**).
+
+Ahora, existe un término acuñado por el psicólogo ??Irving Janis??, "Pensamiento de Grupo":http://es.wikipedia.org/wiki/Pensamiento_de_grupo. Resumiendo el articulo de Wikipedia, el término de *Pensamiento de Grupo* fue usado para explicar el comportamiento a veces irracional que puede tener un grupo de personas, el cual sucede cuando cada individuo miembro del grupo intenta conformar su opinión con respecto a la que cree es el consenso del grupo.
+
+Este comportamiento se nota en este cuento corto, la +Paradoja de Abilene+:
+
+bq(azulado).. Una calurosa tarde en Coleman, una familia compuesta por suegros y un matrimonio está jugando al dominó cómodamente a la sombra de un pórtico. Cuando el suegro propone hacer un viaje a Abilene, ciudad situada a 80 km., la mujer dice: «Suena como una gran idea», pese a tener reservas porque el viaje sería caluroso y largo, pensando que sus preferencias no comulgan con las del resto del grupo. Su marido dice: «A mí me parece bien. Sólo espero que tu mamá tenga ganas de ir.» La suegra después dice: «¡Por supuesto que quiero ir. Hace mucho que no voy a Abilene!».
+
+El viaje es caluroso, polvoriento y largo. Cuando llegan a una cafetería, la comida es mala y vuelven agotados después de cuatro horas.
+
+Uno de ellos, con mala intención, dice: «¿Fue un gran viaje, no?». La suegra responde que, de hecho, hubiera preferido quedarse en casa, pero decidió seguirlos sólo porque los otros tres estaban muy entusiasmados. El marido dice: «No me sorprende. Sólo fui para satisfacer al resto de ustedes». La mujer dice: «Sólo fui para que estuviesen felices. Tendría que estar loca para desear salir con el calor que hace». El suegro después refiere que lo había sugerido únicamente porque le pareció que los demás podrían estar aburridos.
+
+El grupo se queda perplejo por haber decidido hacer en común un viaje que nadie entre ellos quería hacer. Cada cual hubiera preferido estar sentado cómodamente, pero no lo admitieron entonces, cuando todavía tenían tiempo para disfrutar de la tarde.
+
+<footer>fuente: Paradoja de Abilene en <cite title="Paradoja de Abilene">wikipedia</cite></footer>
+
+p. Para alivio suyo, amig@ lector, pronto llegaré al objetivo de mi artículo. Internet es un gran medio para expresar opiniones, es gigantesco y sin limitaciones (o por lo menos debería ser así siempre, viva la neutralidad de la red). Pero toda ésta libertad y anonimato es una Espada de Damocles, al disfrutar de anonimato solemos desinhibirnos y tendemos a hablar sin pensar, al tener libertad de expresión llegamos a decir cualquier barbaridad y muchos tenemos la tendencia de que cuando vemos algo en internet, asumimos que es veráz.
+
+Cuando expresamos nuestras ideas en la red lo hacemos por lo general en grupos de personas con las que nos identificamos o en grupos a los que nos gustaría pertenecer, donde satisfacer nuestras necesidades de socialización y satisfacer nuestro deseo innato de aceptación, y caemos en el tipo de situaciones que describe el Pensamiento de grupo, ésta mayor sensibilidad a la opinión del grupo, el mayor grado de empatía social y la fuerza provocada por la euforia del momento moldea nuestras opiniones *imitando a la que creemos que es el consenso del grupo*, y dificilmente nos daremos cuenta de ello. A medida que se va moldeando la opinión del grupo va aumentando el radicalismo y eso termina haciendo que se pueda llegar a conclusiones bastante… devastadoras.
+
+Al ser participe de foros como **reddit** y **4chan** (por todo lo que ustedes amen en este mundo, si quieren conservar la integridad de su alma, no visiten 4chan…. lo cual harán porque ya piqué su curiosidad, jejeje) he notado mucho este tipo de comportamiento. En reddit no lo he notado tanto porque su base de usuarios es mucho más madura, pero en 4chan sí son mas inmaduros y hay todo tipo de personas ahí, desde pervertidos hasta asesinos en serie (no bromeo, hay casos de asesinos en serie que "confiesan":http://mascaramurder.blogspot.com/2012/06/magnotta-confession-on-4chan.html sus crimenes en 4chan, aunque no es posible comprobar si es verdad).
+
+Una vez leí sobre un caso que lamentablemente recuerdo con vaguedad y no he podido conseguir la fuente donde lo leí: el caso trataba sobre un autor de ¿recetas? de cocina que publicó una en internet, un editor de una revista en un país europeo plagió la receta? y la publicó en su revista. El autor de la receta? mandó un email reclamando al editor que aunque no le importaba que le plagiasen su receta, que por lo menos le diese crédito por ella, a lo que el editor le respondió de mala manera. El autor, indignado, publicó los correos en internet, aunque si mal no recuerdo no reveló la identidad del editor en ningún momento, pero el caso se popularizo en las redes sociales y mucha gente indignada comenzó a hacer investigaciones hasta que identificaron al editor, desde ese momento comenzaron a llegarle al editor muchas amenazas telefónicas, bromas de mal gusto, presión por las redes sociales con gente insultandolo, y seguramente también le hackearon el correo (en 4chan hay mucha gente de anonymous y muchos otros colectivos de hackers, y cuando ven que alguien hace cosas indebidas en la red, los castigan severamente). Tanta fue la presión sobre el editor que terminó cerrando la revista, borrandose de sus redes sociales y creo que hasta se mudó de ciudad.
+
+Independientemente de que el mencionado editor mereciese el castigo o no, la euforia provocada por la injusticia sobre el autor de la receta y la empatía que provocó en las redes fue escalando hasta que el sub-conjunto de internautas comenzó a acosarlo fuertemente, obligandolo a cerrar el negocio que le proporcionaba sustento a el y probablemente a su familia sólo por un error, sin darle oportunidad de enmendar o corregir… todos merecemos una segunda oportunidad.
+
+Y existen casos extremos de estos tipos de Pensamientos de Grupo, provocadas por el fanatismo religioso y el fanatismo politico. Algunos ejemplos son el "genocidio en ruanda":http://es.wikipedia.org/wiki/Genocidio_de_Ruanda y la "inquisición española":http://es.wikipedia.org/wiki/Inquisición_española (bastante parodiada por los genios de monty python).
+
+En el artículo de wikipedia sobre el pensamiento de grupo, el cual recomiendo leer, tienen una explicación sobre las causas que llevan al pensamiento de grupo y las medidas que se pueden tomar para reducir sus efectos… las cuales tomaré prestadas para un futuro artículo que espero resulte bastante interesante.

@@ -1,18 +1,26 @@
+/* Fuentes */
+@font-face {
+  font-family: Kaushan;
+  src: url("../fonts/KaushanScript-Regular.otf");
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url("../fonts/Quicksand-Regular.otf");
+}
+
 /*
  * Globals
  */
+
 html { height: 100%}
  html {
   position: relative;
   min-height: 100%;
 }
 
-@font-face {
-  font-family: Kaushan;
-  src: url("../fonts/KaushanScript-Regular.otf");
-}
 body {
-  font-family: Tahoma, Georgia, "Times New Roman", Times, serif;
+  font-family: Trebuchet, Tahoma, Georgia, "Times New Roman", Times, serif;
   color: #555;
   background-image:url('../images/texturas/bskulls.gif');
 }
@@ -24,7 +32,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Quicksand, "Segoe UI Light", "Segoe UI", "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-weight: normal;
   color: #333;
 }
@@ -153,6 +161,10 @@ h6, .h6 {
 .blog-post {
   margin-bottom: 60px;
 }
+.blog-post-content > p {
+  text-indent: 40px;
+}
+
 .blog-post-title {
   margin-bottom: 5px;
   font-size: 35px;
@@ -182,4 +194,18 @@ h6, .h6 {
   border-radius: 5px; 
   border: 1px solid #428BCA;
   padding: 5px;
+}
+.azulado {
+  background-color: #f4f8fa;
+}
+
+.bs-callout {
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 3px solid #eee;
+}
+
+.bs-callout-info {
+  background-color: #f4f8fa;
+  border-color: #5bc0de;
 }
