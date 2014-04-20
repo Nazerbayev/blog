@@ -4,11 +4,11 @@ title:  "Pensamiento de Grupo"
 date:   2014-04-18
 categories: blog
 enslavinator: /assets/images/200px-monkey_slave-inator.png
-meta: "William Bettencourt"
+author: "William Bettencourt"
 ---
 
 p. Hace tiempo tuve una conversación con un amigo que habia escrito un artículo en su "blog":http://elpenultimobloguero.blogspot.com, y a modo de broma le comenté que evitase, o que por lo menos tratase con delicadeza, opiniones impopulares en Internet. Cuando me preguntó porqué, le dije que la razón era porque Internet es como un gran organismo vivo y que tiende a reaccionar violentamente y sin compasión frente a esas cosas.
-
+<!--more-->
 Cabe destacar que no logré convencerlo del todo, lo que es razonable ya que no supe argumentar muy bien mi punto, pero ahora que me he documentado un poco mejor entonces puedo darme a entender con más eficacia. Yo digo que el internet tiene su propia conciencia por una característica propia del ser Humano: el ser humano es, y siempre será, bruto cuando está en masa.
 
 <div class="bs-callout bs-callout-info">
@@ -51,3 +51,5 @@ Independientemente de que el mencionado editor mereciese el castigo o no, la euf
 Y existen casos extremos de estos tipos de Pensamientos de Grupo, provocadas por el fanatismo religioso y el fanatismo politico. Algunos ejemplos son el "genocidio en ruanda":http://es.wikipedia.org/wiki/Genocidio_de_Ruanda y la "inquisición española":http://es.wikipedia.org/wiki/Inquisición_española (bastante parodiada por los genios de monty python).
 
 En el artículo de wikipedia sobre el pensamiento de grupo, el cual recomiendo leer, tienen una explicación sobre las causas que llevan al pensamiento de grupo y las medidas que se pueden tomar para reducir sus efectos… las cuales tomaré prestadas para un futuro artículo que espero resulte bastante interesante.
+
+{% include disclaimer_info.html %}

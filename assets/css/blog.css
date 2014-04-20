@@ -209,3 +209,18 @@ h6, .h6 {
   background-color: #f4f8fa;
   border-color: #5bc0de;
 }
+
+.resaltado_gris {
+  background-color: #d5d5d5;
+}
+
+.well2 {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-image:url('../images/texturas/byzsrm6.png');  
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}

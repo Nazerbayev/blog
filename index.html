@@ -1,5 +1,6 @@
 ---
 layout: default
+cerebro: /assets/images/domain_brain96.png
 ---
 <script type="text/javascript">
     $(document).ready(function(){
@@ -8,14 +9,26 @@ layout: default
     })
 </script>
 <div class="home">
+  <div class="well2">
+    <h1>Posts</h1>
+  </div>
+  {% for post in site.posts %}
+    <div class="media">
+      <a class="pull-left" href="{{ post.url }}">
+        <img class="media-object" src="{{page.cerebro}}" alt="...">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading resaltado_gris">{{post.title}}</h4>
+        {% if post.content contains '<!--more-->' %}
+            {{ post.content | split:'<!--more-->' | first }}
+            <p><a href="{{ post.url }}">Continuar leyendo...</a></p>
+        {% else %}
+            {{ post.content }}
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
 
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> <a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
 
   <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
 
