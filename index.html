@@ -12,7 +12,7 @@ cerebro: /assets/images/domain_brain96.png
   <div class="well2">
     <h1>Últimas Entradas</h1>
   </div>
-  {% for post in site.posts %}
+  {% for post in paginator.posts limit: 5 %}
     <div class="media">
       <a class="pull-left" href="{{ post.url }}">
         <img class="media-object" src="{{page.cerebro}}" alt="...">
