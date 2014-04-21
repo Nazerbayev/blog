@@ -17,7 +17,7 @@
                 <div class="col-sm-3 blog-sidebar">
                     <div class="sidebar-module well" style="text-align: center;">
                         <img src="{{site.url}}/assets/images/wookiee.jpg" alt="..." class="img-circle" style="display: block; margin-left: auto; margin-right: auto;">
-                        <p><em>William Bettencourt</em><br/> <strong>Jedi.</strong></p>
+                        <p><em>William Bettencourt</em><br/> <strong>Programador, Wantrepreneur, Jedi.</strong></p>
                     </div>
                     <div class="sidebar-module">
                         <br/>
@@ -27,15 +27,6 @@
                         <a href="http://www.reddit.com/submit" title="Seguir en Reddit" onclick="window.location = 'http://www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"><img src="{{site.url}}/assets/images/reddit_cloud32.png"></a>
                     </div>
                     <div class="sidebar-module">
-                        <br/>
-                        <h4>Archivos</h4>
-                        <ol class="list-unstyled">
-                            {% for post in site.posts %}
-                            <li><a href="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} {{ post.title }}</a></li>
-                            {% endfor %}            
-                        </ol>
-                    </div>
-                    <div class="sidebar-module">
                         <h4>Elsewhere</h4>
                         <ol class="list-unstyled">
                             <li><a href="#">GitHub</a></li>
@@ -43,6 +34,14 @@
                             <li><a href="#">Facebook</a></li>
                         </ol>
                         <br/>
+                    </div>
+                    <div class="sidebar-module">
+                        <h4>Archivos</h4>
+                        <ol class="list-unstyled">
+                            {% for post in site.posts %}
+                            <li><a href="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} {{ post.title }}</a></li>
+                            {% endfor %}            
+                        </ol>
                     </div>
                 </div><!-- /.blog-sidebar -->
             </div><!-- /.row -->

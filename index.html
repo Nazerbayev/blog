@@ -28,7 +28,28 @@ cerebro: /assets/images/domain_brain96.png
       </div>
     </div>
   {% endfor %}
-<br />
+<hr/>
+<div style="text-align: center">
+  <ul class="pagination">
+    {% if paginator.previous_page %}
+        <li><a href="{% if paginator.previous_page == 1 %}/index.html{% else %}/index/pagina{{paginator.previous_page}}{% endif %}">&laquo;</a></li>
+    {% else %}
+        <li class="disabled"><a href="#">&laquo;</a></li>
+    {% endif %}
+    {% for i in (1..paginator.total_pages) %}
+      {% if forloop.first %}
+    <li {% if i == paginator.page %}class="active"{% endif %}><a href="/index.html">{{i}}</a></li>
+      {% else %}
+    <li {% if i == paginator.page %}class="active"{% endif %}><a href="/index/pagina{{i}}">{{i}}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}  
+        <li><a href="/index/pagina{{paginator.next_page}}">&raquo;</a></li>
+    {% else %}
+        <li class="disabled"><a href="#">&raquo;</a></li>
+    {% endif %}
+  </ul>
+</div>
 <br />
 <br />
 </div>
