@@ -3,7 +3,7 @@ markdown: redcarpet
 textile: redcloth
 highlighter: pygments
 description: "Este es el blog personal de William Bettencourt, es un medio para liberar stress y donde comentaré todo lo que ronde por mi cabeza o que consiga que es cool en Internet"
-paginate: 2
+paginate: 5
 paginate_path: "index/pagina:num"
 url: "http://localhost:4000"
 
