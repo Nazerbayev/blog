@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".blog-nav-item").removeClass("active");
+        $(".blog-nav #posts").addClass("active");
+    })
+</script>
+
+<div class="well2">
+	<h1>Posts</h1>
+</div>
+
+<div class="list-group">
+	{% for post in site.posts %}
+	<a href="{{ post.url }}" class="list-group-item"><span class="badge">{{ post.date | date: "%d/%m/%y" }}</span>{{ post.title }}</a>
+	{% endfor %}
+</div>

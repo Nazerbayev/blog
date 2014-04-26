@@ -1,0 +1,55 @@
+---
+layout: default
+cerebro: /assets/images/domain_brain96.png
+---
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".blog-nav-item").removeClass("active");
+        $(".blog-nav #index").addClass("active");
+    })
+</script>
+<div class="home">
+  <div class="well2">
+    <h1>Últimas Entradas</h1>
+  </div>
+  {% for post in paginator.posts limit: 5 %}
+    <div class="media">
+      <a class="pull-left" href="{{ post.url }}">
+        <img class="media-object" src="{{page.cerebro}}" alt="...">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading resaltado_gris">{{post.title}}</h4>
+        {% if post.content contains '<!--more-->' %}
+            {{ post.content | split:'<!--more-->' | first }}
+            <p><a href="{{ post.url }}">Continuar leyendo...</a></p>
+        {% else %}
+            {{ post.content }}
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+<hr/>
+<div style="text-align: center">
+  <ul class="pagination">
+    {% if paginator.previous_page %}
+        <li><a href="{% if paginator.previous_page == 1 %}/index.html{% else %}/index/pagina{{paginator.previous_page}}{% endif %}">&laquo;</a></li>
+    {% else %}
+        <li class="disabled"><a href="#">&laquo;</a></li>
+    {% endif %}
+    {% for i in (1..paginator.total_pages) %}
+      {% if forloop.first %}
+    <li {% if i == paginator.page %}class="active"{% endif %}><a href="/index.html">{{i}}</a></li>
+      {% else %}
+    <li {% if i == paginator.page %}class="active"{% endif %}><a href="/index/pagina{{i}}">{{i}}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}  
+        <li><a href="/index/pagina{{paginator.next_page}}">&raquo;</a></li>
+    {% else %}
+        <li class="disabled"><a href="#">&raquo;</a></li>
+    {% endif %}
+  </ul>
+</div>
+<br />
+<br />
+</div>

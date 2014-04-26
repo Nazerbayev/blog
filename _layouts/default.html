@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    {% include head.html %}
+    <body>
+      <div id="wrap">
+        {% include header.html %}
+        <div class="container" style="background-color: White;">
+            <div class="blog-header">
+                <h1 class="blog-title">Catarsis Intelectual</h1>
+                <p class="lead blog-description">El blog personal de William Bettencourt</p>
+                <hr />
+            </div>
+            <div class="row">
+                <div class="col-sm-9 blog-main">
+                    {{ content }}
+                </div><!-- /.blog-main -->
+                <div class="col-sm-3 blog-sidebar">
+                    <div class="sidebar-module well" style="text-align: center;">
+                        <img src="{{site.url}}/assets/images/wookiee.jpg" alt="..." class="img-circle" style="display: block; margin-left: auto; margin-right: auto;">
+                        <p><em>William Bettencourt</em><br/> <strong>Programador, Wantrepreneur, Jedi.</strong></p>
+                    </div>
+                    <div class="sidebar-module">
+                        <br/>
+                        <a href="/feed.xml" title="Subscribir al feed RSS"><img src="{{site.url}}/assets/images/feed_cloud32.png"></a>
+                        <a href="https://twitter.com/home?status=share%20me" title="Compartir en Twitter" target="_blank"><img src="{{site.url}}/assets/images/twitter_cloud32.png"></a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}" title="Compartir en Facebook"><img src="{{site.url}}/assets/images/facebook_cloud32.png"></a>
+                        <a href="http://www.reddit.com/submit" title="Seguir en Reddit" onclick="window.location = 'http://www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"><img src="{{site.url}}/assets/images/reddit_cloud32.png"></a>
+                    </div>
+                    <div class="sidebar-module">
+                        <h4>Elsewhere</h4>
+                        <ol class="list-unstyled">
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ol>
+                        <br/>
+                    </div>
+                    <div class="sidebar-module">
+                        <h4>Archivos</h4>
+                        <ol class="list-unstyled">
+                            {% for post in site.posts %}
+                            <li><a href="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} {{ post.title }}</a></li>
+                            {% endfor %}            
+                        </ol>
+                    </div>
+                </div><!-- /.blog-sidebar -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+        <div class="push"></div>
+      </div><!-- /#wrap -->
+    {% include footer.html %}
+    {% include analitics.html %}
+    </body>
+</html>
