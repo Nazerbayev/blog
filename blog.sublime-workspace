@@ -1,0 +1,341 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"STATICF",
+				"STATICFILES_STORAGE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "## Welcome to MarkdownPad 2 ##\n\n**MarkdownPad** is a full-featured Markdown editor for Windows.\n\n### Built exclusively for Markdown ###\n\nEnjoy first-class Markdown support with easy access to  Markdown syntax and convenient keyboard shortcuts.\n\nGive them a try:\n\n- **Bold** (`Ctrl+B`) and *Italic* (`Ctrl+I`)\n- Quotes (`Ctrl+Q`)\n- Code blocks (`Ctrl+K`)\n- Headings 1, 2, 3 (`Ctrl+1`, `Ctrl+2`, `Ctrl+3`)\n- Lists (`Ctrl+U` and `Ctrl+Shift+O`)\n\n### See your changes instantly with LivePreview ###\n\nDon't guess if your [hyperlink syntax](http://markdownpad.com) is correct; LivePreview will show you exactly what your document looks like every time you press a key.\n\n### Make it your own ###\n\nFonts, color schemes, layouts and stylesheets are all 100% customizable so you can turn MarkdownPad into your perfect editor.\n\n### A robust editor for advanced Markdown users ###\n\nMarkdownPad supports multiple Markdown processing engines, including standard Markdown, Markdown Extra (with Table support) and GitHub Flavored Markdown.\n\nWith a tabbed document interface, PDF export, a built-in image uploader, session management, spell check, auto-save, syntax highlighting and a built-in CSS management interface, there's no limit to what you can do with MarkdownPad.\n",
+			"settings":
+			{
+				"buffer_size": 1257,
+				"line_ending": "Windows",
+				"name": "## Welcome to MarkdownPad 2 ##"
+			}
+		},
+		{
+			"contents": "Sample Markdown Cheat Sheet\n=========================== \n\nThis is a sample markdown file to help you write Markdown quickly :)\n\nIf you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Palette with `CMD+P` then choose `Markdown Preview in browser` to see the result in your browser.\n\n## Text basics\nthis is *italic* and this is **bold** .  another _italic_ and another __bold__\n\nthis is `important` text. and percentage signs : % and `%`\n\nThis is a paragraph with a footnote (builtin parser only). [^note-id]\n\nInsert `[ toc ]` without spaces to generate a table of contents (builtin parsers only).\n\n## Indentation\n> Here is some indented text\n>> even more indented\n\n## Titles\n# Big title (h1)\n## Middle title (h2)\n### Smaller title (h3)\n#### and so on (hX)\n##### and so on (hX)\n###### and so on (hX)\n\n## Example lists (1)\n\n - bullets can be `-`, `+`, or `*`\n - bullet list 1\n - bullet list 2\n    - sub item 1\n    - sub item 2\n\n        with indented text inside\n\n - bullet list 3\n + bullet list 4\n * bullet list 5\n\n## Links\n\nThis is an [example inline link](http://lmgtfy.com/) and [another one with a title](http://lmgtfy.com/ \"Hello, world\").\n\nLinks can also be reference based : [reference 1][ref1] or [reference 2 with title][ref2].\n\nReferences are usually placed at the bottom of the document\n\n## Images\n\nA sample image :\n\n![revolunet logo](http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg \"revolunet logo\")\n\nAs links, images can also use references instead of inline links :\n\n![revolunet logo][revolunet-logo]\n\n\n## Code\n\nIt's quite easy to show code in markdown files.\n\nBackticks can be used to `highlight` some words.\n\nAlso, any indented block is considered a code block.  If `enable_highlight` is `true`, syntax highlighting will be included (for the builtin parser - the github parser does this automatically).\n\n    <script>\n        document.location = 'http://lmgtfy.com/?q=markdown+cheat+sheet';\n    </script>\n\n## Math\n\nWhen `enable_mathjax` is `true`, inline math can be included \\\\(\\frac{\\pi}{2}\\\\) $\\pi$\n\nAlternatively, math can be written on its own line:\n\n$$F(\\omega) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) \\, e^{ - i \\omega t}dt$$\n\n\\\\[\\int_0^1 f(t) \\mathrm{d}t\\\\]\n\n\\\\[\\sum_j \\gamma_j^2/d_j\\\\]\n\n\n\n## GitHub Flavored Markdown\n\nIf you use the Github parser, you can use some of [Github Flavored Markdown][gfm] syntax :\n\n * User/Project@SHA: revolunet/sublimetext-markdown-preview@7da61badeda468b5019869d11000307e07e07401\n * User/Project#Issue: revolunet/sublimetext-markdown-preview#1\n * User : @revolunet\n\nSome Python code :\n\n```python\nimport random\n\nclass CardGame(object):\n    \"\"\" a sample python class \"\"\"\n    NB_CARDS = 32\n    def __init__(self, cards=5):\n        self.cards = random.sample(range(self.NB_CARDS), 5)\n        print 'ready to play'\n```\n\nSome Javascript code :\n\n```js\nvar config = {\n    duration: 5,\n    comment: 'WTF'\n}\n// callbacks beauty un action\nasync_call('/path/to/api', function(json) {\n    another_call(json, function(result2) {\n        another_another_call(result2, function(result3) {\n            another_another_another_call(result3, function(result4) {\n                alert('And if all went well, i got my result :)');\n            });\n        });\n    });\n})\n```\n\nThe Github Markdown also brings some [nice Emoji support][emoji] : :+1: :heart: :beer:\n\n[^note-id]: This is the text of the note. \n\n## Parsers and Extensions\n\nMarkdown Preview comes with **Python-Markdown** and **Markdown2** preloaded.\n\n### *Python-Markdown*\n\nThe [Python-Markdown Parser][] provides support for several extensions.\n\n[Python-Markdown Parser]: https://github.com/waylan/Python-Markdown\n\n#### Extra Extensions\n\n* `abbr` -- [Abbreviations][]\n* `attr_list` -- [Attribute Lists][]\n* `def_list` -- [Definition Lists][]\n* `fenced_code` -- [Fenced Code Blocks][]\n* `footnotes` -- [Footnotes][]\n* `tables` -- [Tables][]\n* `smart_strong` -- [Smart Strong][]\n\n[Abbreviations]: http://pythonhosted.org/Markdown/extensions/abbreviations.html\n[Attribute Lists]: http://pythonhosted.org/Markdown/extensions/attr_list.html\n[Definition Lists]: http://pythonhosted.org/Markdown/extensions/definition_lists.html\n[Fenced Code Blocks]: http://pythonhosted.org/Markdown/extensions/fenced_code_blocks.html\n[Footnotes]: http://pythonhosted.org/Markdown/extensions/footnotes.html\n[Tables]: http://pythonhosted.org/Markdown/extensions/tables.html\n[Smart Strong]: http://pythonhosted.org/Markdown/extensions/smart_strong.html\n\n\nYou can enable them all at once using the `extra` keyword.\n\n    extensions: [ 'extra' ]\n\nIf you want all the extras plus the `toc` extension,\nyour settings would look like this:\n\n    {\n        ...\n        parser: 'markdown',\n        extensions: ['extra', 'toc'],\n        ...\n    }\n\n\n#### Other Extensions\n\nThere are also some extensions that are not included in Markdown Extra\nbut come in the standard Python-Markdown library.\n\n* `code-hilite` -- [CodeHilite][]\n* `html-tidy` -- [HTML Tidy][]\n* `header-id` -- [HeaderId][]\n* `meta_data` -- [Meta-Data][]\n* `nl2br` -- [New Line to Break][]\n* `rss` -- [RSS][]\n* `sane_lists` -- [Sane Lists][]\n* `toc` -- [Table of Contents][]\n* `wikilinks` -- [WikiLinks][]\n\n[CodeHilite]:  http://pythonhosted.org/Markdown/extensions/code_hilite.html\n[HTML Tidy]:  http://pythonhosted.org/Markdown/extensions/html_tidy.html\n[HeaderId]:  http://pythonhosted.org/Markdown/extensions/header_id.html\n[Meta-Data]:  http://pythonhosted.org/Markdown/extensions/meta_data.html\n[New Line to Break]:  http://pythonhosted.org/Markdown/extensions/nl2br.html\n[RSS]:  http://pythonhosted.org/Markdown/extensions/rss.html\n[Sane Lists]:  http://pythonhosted.org/Markdown/extensions/sane_lists.html\n[Table of Contents]:  http://pythonhosted.org/Markdown/extensions/toc.html\n[WikiLinks]:  http://pythonhosted.org/Markdown/extensions/wikilinks.html\n\n#### 3rd Party Extensions\n\n\n*Python-Markdown* is designed to be extended.\nJust fork this repo and add your extensions inside the `.../Packages/Markdown Preview/markdown/extensions/` folder.\n\nCheck out the list of [3rd Party extensions](\nhttps://github.com/waylan/Python-Markdown/wiki/Third-Party-Extensions).\n\n\n#### Default Extensions\n\nThe default extensions are:\n\n* `footnotes` -- [Footnotes]\n* `toc` -- [Table of Contents]\n* `fenced_code` -- [Fenced Code Blocks] \n* `tables` -- [Tables]\n\nUse the `default` keyword, to select them all.\nIf you want all the defaults plus the `definition_lists` extension,\nyour settings would look like this:\n\n    {\n        ...\n        parser: 'markdown',\n        extensions: ['default', 'definition_lists'],\n        ...\n    }\n\n\n### *Markdown2*\n\nThe [Markdown2 Parser][] also provides support for extensions, known as [Extras][].   \nYou can configure the list of extras you want to use inside the package settings.\n\n[Markdown2 Parser]: https://github.com/trentm/python-markdown2\n\n\n#### Default Extras\n\nThe default extras are:\n\n* `footnotes` -- [Footnotes][Footnotes Extra]\n* `toc` -- Table of Contents\n* `fenced-code-blocks` -- [Fenced CodeBlocks][]\n* `cuddled-lists` -- [Cuddled Lists][]\n\n[Footnotes Extra]:      https://github.com/trentm/python-markdown2/wiki/footnotes\n[Fenced CodeBlocks]:    https://github.com/trentm/python-markdown2/wiki/fenced-code-blocks\n[Cuddled Lists]:        https://github.com/trentm/python-markdown2/wiki/cuddled-lists\n\n\nYou can enable all default extras at once using the `default` keyword.\nIf you want all the default extras plus the 'wiki-table' extra,\nyour settings would look like this:\n\n    {\n        ...\n        parser: 'markdown2',\n        extensions: ['default', 'wiki-table'],\n        ...\n    }\n\n\n#### Other Extras\n\nFor a complete list of extras please checkout the [Extras Wiki Page][Extras].\n\n[Extras]:   https://github.com/trentm/python-markdown2/wiki/Extras\n\n\n## Examples\n\n\n### Tables\n\nThe `tables` extension of the *Python-Markdown* parser is activated by default,\nbut is currently **not** available in *Markdown2*.\n\nThe syntax was adopted from the [php markdown project](http://michelf.ca/projects/php-markdown/extra/#table),\nand is also used in github flavoured markdown.\n\n| Year | Temperature (low) | Temperature (high) |  \n| ---- | ----------------- | -------------------|  \n| 1900 |               -10 |                 25 |  \n| 1910 |               -15 |                 30 |  \n| 1920 |               -10 |                 32 |  \n\n\n### Wiki Tables\n\nIf you are using *Markdown2* with the `wiki-tables` extra activated you should see a table below:\n\n|| *Year* || *Temperature (low)* || *Temperature (high)* ||  \n||   1900 ||                 -10 ||                   25 ||  \n||   1910 ||                 -15 ||                   30 ||  \n||   1920 ||                 -10 ||                   32 ||  \n\n\n### Definition Lists\n\nThis example requires *Python Markdown*'s `def_list` extension.\n\nApple\n:   Pomaceous fruit of plants of the genus Malus in \n    the family Rosaceae.\n\nOrange\n:   The fruit of an evergreen tree of the genus Citrus.\n\n\n## About\n\nThis plugin and this sample file is proudly brought to you by the [revolunet team][revolunet]\n\n [ref1]: http://revolunet.com\n [ref2]: http://revolunet.com \"rich web apps\"\n [MarkdownREF]: http://daringfireball.net/projects/markdown/basics\n [MarkdownPreview]: https://github.com/revolunet/sublimetext-markdown-preview\n [ST]: http://sublimetext.com\n [revolunet]: http://revolunet.com\n [revolunet-logo]: http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg \"revolunet logo\"\n [gfm]: http://github.github.com/github-flavored-markdown/\n [emoji]: http://www.emoji-cheat-sheet.com/\n\n",
+			"settings":
+			{
+				"buffer_size": 9610,
+				"line_ending": "Windows",
+				"name": "Markdown Cheatsheet",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 288.0,
+		"selected_items":
+		[
+			[
+				"markd",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"syn java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax text",
+				"Set Syntax: Textile"
+			]
+		],
+		"width": 576.0
+	},
+	"console":
+	{
+		"height": 375.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/William/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/William/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/William/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/C/Users/William/proyectos/blog/posts.html",
+		"/C/Users/William/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/William/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/William/AppData/Roaming/Sublime Text 2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Users/William/AppData/Roaming/Sublime Text 2/Packages/MarkdownTOC/MarkdownTOC.sublime-settings",
+		"/C/Users/William/proyectos/blog/_config.yml",
+		"/C/Users/William/proyectos/blog/_plugins/archivepage.rb",
+		"/C/Users/William/proyectos/blog/index.html",
+		"/C/Users/William/proyectos/blog/about.html",
+		"/C/Users/William/proyectos/blog/contacto.html",
+		"/C/Users/William/proyectos/blog/assets/css/vcard.css",
+		"/C/Users/William/proyectos/blog/_includes/head.html",
+		"/C/Users/William/proyectos/blog/_layouts/default.html",
+		"/C/Users/William/proyectos/blog/_plugins/archivegenerator.rb",
+		"/C/Users/William/proyectos/blog/_posts/2014-03-10-paginacion_test.textile",
+		"/C/Users/William/proyectos/blog/extensions/archive_gen.rb",
+		"/C/Users/William/proyectos/blog/extensions/sample.html",
+		"/C/Users/William/proyectos/blog/_posts/2014-04-10-paginacion_test.textile",
+		"/C/Users/William/proyectos/blog/_posts/2014-04-11-paginacion_test.textile",
+		"/C/Users/William/proyectos/blog/_posts/2014-04-12-paginacion_test.textile",
+		"/C/Users/William/proyectos/blog/_posts/2014-04-13-paginacion_test.textile",
+		"/C/Users/William/proyectos/blog/_posts/2014-04-14-paginacion_test.textile",
+		"/C/Users/William/proyectos/blog/_posts/2014-04-15-paginacion_test.textile",
+		"/C/Users/William/proyectos/blog/_posts/2014-04-18-pensamiento-de-grupo.textile",
+		"/C/Users/William/proyectos/blog/assets/js/twitterFetcher.js",
+		"/C/Users/William/proyectos/blog/_layouts/post.html",
+		"/C/Users/William/proyectos/blog/_includes/footer.html",
+		"/C/Users/William/proyectos/blog/_includes/disqus.html",
+		"/C/Users/William/proyectos/blog/_posts/2014-04-16-porque_catarsis.textile",
+		"/C/Users/William/proyectos/blog/_posts/2014-04-17-pensamiento-de-grupo.markdown",
+		"/C/Users/William/proyectos/blog/_includes/disclaimer_info.html",
+		"/C/Users/William/proyectos/blog/disclaimer.html",
+		"/C/Users/William/proyectos/blog/licencias_y_atribuciones.html",
+		"/C/Users/William/proyectos/blog/assets/css/blog.css",
+		"/C/Users/William/proyectos/blog/assets/css/bootstrap.min.css",
+		"/C/Users/William/proyectos/blog/_posts/2014-04-16-porque_catarsis.markdown",
+		"/C/Users/William/proyectos/blog/_includes/header.html",
+		"/C/Users/William/proyectos/blog/assets/stylesheets/bootstrap/bootstrap.scss",
+		"/C/Users/William/proyectos/blog/assets/stylesheets/bootstrap.scss",
+		"/C/Users/William/Desktop/TEST/Comedor/bower.json",
+		"/C/Users/William/Desktop/TEST/Comedor/Comedor/settings.py",
+		"/C/Users/William/Documents/Manga/normalizar.py",
+		"/C/Users/William/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/William/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"note-id",
+			"IconicStroke",
+			"blockq",
+			"screen",
+			"font-size",
+			"size",
+			"font",
+			"btn",
+			".font-size",
+			"font-size"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 1257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"auto_name": "## Welcome to MarkdownPad 2 ##",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 9610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								927,
+								927
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true
+}
