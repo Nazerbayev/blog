@@ -1,6 +1,5 @@
 ---
 layout: default
-cerebro: /blog/assets/images/domain_brain96.png
 ---
 <script type="text/javascript">
     $(document).ready(function(){
@@ -15,7 +14,13 @@ cerebro: /blog/assets/images/domain_brain96.png
   {% for post in paginator.posts limit: 5 %}
     <div class="media">
       <a class="pull-left" href="{{ post.url }}">
-        <img class="media-object" src="{{page.cerebro}}" alt="...">
+        {% for category in post.categories %}
+        {% for p in site.data.categorias %}
+        {% if p.tipo == category %}
+        <img class="media-object" src="{{site.url}}{{p.imagen}}" alt="{{p.nombre}}">
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
       </a>
       <div class="media-body">
         <h4 class="media-heading resaltado_gris">{{post.title}}</h4>

@@ -1,0 +1,15 @@
+- tipo: blog
+  nombre: Blog
+  imagen: /assets/images/domain_brain64.png
+
+- tipo: opinion
+  nombre: Opinión
+  imagen: /assets/images/brain_spawn64.png
+
+- tipo: politica
+  nombre: Política
+  imagen: /assets/images/delbrucks_brain64.png
+
+- tipo: psicologia
+  nombre: Psicología
+  imagen: /assets/images/domain_brain64.png
