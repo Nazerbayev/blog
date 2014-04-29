@@ -13,15 +13,14 @@ layout: default
   </div>
   {% for post in paginator.posts limit: 5 %}
     <div class="media">
-      <a class="pull-left" href="{{ post.url }}">
+      <div class="pull-left">
+        <a href="{{ post.url }}">
+          <img class="media-object" src="{{site.url}}/assets/images/planner48.png" alt="...">
+        </a>
         {% for category in post.categories %}
-        {% for p in site.data.categorias %}
-        {% if p.tipo == category %}
-        <img class="media-object" src="{{site.url}}{{p.imagen}}" alt="{{p.nombre}}">
-        {% endif %}
+        <div class="lozenge"><a href="#">{{category}}</a></div>
         {% endfor %}
-        {% endfor %}
-      </a>
+      </div>
       <div class="media-body">
         <h4 class="media-heading resaltado_gris">{{post.title}}</h4>
         {% if post.content contains '<!--more-->' %}
