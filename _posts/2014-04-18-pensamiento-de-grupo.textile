@@ -3,9 +3,8 @@ layout: post
 title:  "Pensamiento de Grupo"
 date:   2014-04-18
 categories: [blog, politica, psicologia]
-enslavinator: /assets/images/200px-monkey_slave-inator.png
+enslavinator: /blog/assets/images/200px-monkey_slave-inator.png
 author: "William Bettencourt"
-pepe: troll2
 ---
 
 p. Hace tiempo tuve una conversación con un amigo que habia escrito un artículo en su "blog":http://elpenultimobloguero.blogspot.com, y a modo de broma le comenté que evitase, o que por lo menos tratase con delicadeza, opiniones impopulares en Internet. Cuando me preguntó porqué, le dije que la razón era porque Internet es como un gran organismo vivo y que tiende a reaccionar violentamente y sin compasión frente a esas cosas.
