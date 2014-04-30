@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="blog-post">
 	<h2 class="blog-post-title">{{ page.title }}</h2>
-    <p class="blog-post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • <a href="#">{{ page.author }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • 
+    <p class="blog-post-meta">{{ page.date | date: "%d/%m/%Y" }}{% if page.author %} • <a href="#">{{ page.author }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • 
     <a href="https://plus.google.com/share?url={{site.url}}{{page.url}}" title="Compartir en Google+" target="_blank"><img src="{{site.url}}/assets/images/googleplus_cloud32.png"></a>
     <a href="https://twitter.com/home?status={{site.url}}{{page.url}}" title="Compartir en Twitter" target="_blank"><img src="{{site.url}}/assets/images/twitter_cloud32.png"></a>
     <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" title="Compartir en Facebook"><img src="{{site.url}}/assets/images/facebook_cloud32.png"></a>

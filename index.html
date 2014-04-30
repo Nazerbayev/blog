@@ -14,11 +14,12 @@ layout: default
   {% for post in paginator.posts limit: 5 %}
     <div class="media">
       <div class="pull-left">
-        <a href="{{ post.url }}">
-          <img class="media-object" src="{{site.url}}/assets/images/planner48.png" alt="...">
+        <a href="{{ post.url }}" title="Ver post: '{{post.title}}'">
+          <img class="media-object" style="margin-left: auto; margin-right: auto;" src="{{site.url}}/assets/images/planner48.png" alt="...">
+          <div class="lozenge lozenge--green">{{post.date | date: '%d/%m/%Y'}}</div>
         </a>
         {% for category in post.categories %}
-        <div class="lozenge"><a href="#">{{category}}</a></div>
+        <div class="lozenge lozenge--blue"><a href="#">{{category}}</a></div>
         {% endfor %}
       </div>
       <div class="media-body">
