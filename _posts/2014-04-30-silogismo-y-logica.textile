@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Silogismo y Lógica"
+date:   2014-04-30
+categories: [blog, logica]
+author: "William Bettencourt"
+---
+
+p. Hay un post que quiero eventualmente llegar a publicar pero que necesita una base conceptual para que pueda ser entendido como necesito, y esa base conceptual es la comprendida por la lógica y las falacias formales e informales.
+Por lo tanto haré un resumen bastante modesto sobre las bases principales de la Lógica, en específico la **lógica simple booleana**.
+<!--more-->
+
+Procediendo con las definiciones, entonces tenemos:
+
+<div class="bs-callout bs-callout-info">
+    **Silogismo:** El silogismo es una forma de razonamiento deductivo que consta de +dos proposiciones como premisas+ y otra como +conclusión+, siendo la última una inferencia necesariamente +deductiva+ de las otras dos.
+</div>
+
+Existen varios tipos de silogismos:
+# Silogismo Compuesto
+# Silogismo Condicional
+# Silogismo Disyuntivo
+
+
+
+Nuestra naturaleza, que heredamos de los primates en nuestro tortuoso camino por la evolución *(por mucho que les duela a los creacionistas)*, siempre ha sido la de imitar. Somos animales altamente sociales y empáticos, aprendemos por imitación y vivimos el resto de nuestras vidas imitando a nuestros congéneres, imitamos a los grupos sociales a los cuales queremos pertenecer o con los que nos sentimos identificados.
+
+<div style="padding-left: 10px; text-align: center; float: right">
+!(img-thumbnail){{ page.enslavinator }}(El monkey enslav-inator)!
+%(small)_El monkey enslav-inator_%
+</div>
